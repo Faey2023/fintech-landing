@@ -2,6 +2,7 @@ import Faq from "@/sections/Faq";
 import Features from "@/sections/Features";
 import Footer from "@/sections/Footer";
 import Pricing from "@/sections/Pricing";
+import Promotion from "@/sections/Promotion";
 import Ready from "@/sections/Ready";
 import Security from "@/sections/Security";
 import Works from "@/sections/Works";
@@ -15,6 +16,7 @@ const Home = () => {
       <Faq />
       <Pricing />
       <Ready />
+      <Promotion />
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 const Ready = () => {
   return (
-    <section>
+    <section className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-30">
       <div className="relative flex items-center justify-center text-white overflow-hidden rounded-lg sm:rounded-xl md:rounded-2xl min-h-64 sm:min-h-80 md:h-113">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${img.src})` }}></div>
 

@@ -2,7 +2,7 @@ import Logo from "@/components/shared/Logo";
 
 const Footer = () => {
   return (
-    <section>
+    <section className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-30">
       <div className="flex flex-col md:flex-row md:justify-between gap-8 md:gap-0 pb-3">
         <div className="space-y-6 sm:space-y-8 md:space-y-10">
           <Logo />

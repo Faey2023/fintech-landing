@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 
 const Pricing = () => {
   return (
-    <section>
+    <section className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-30">
       <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
         <h5 className="uppercase text-[#932EFA] font-semibold text-xs sm:text-sm md:text-base">
           pricing

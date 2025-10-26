@@ -1,3 +1,4 @@
+import Faq from "@/sections/Faq";
 import Footer from "@/sections/Footer";
 import Pricing from "@/sections/Pricing";
 import Ready from "@/sections/Ready";
@@ -5,6 +6,7 @@ import Ready from "@/sections/Ready";
 const Home = () => {
   return (
     <div className="space-y-10 mx-10 md:mx-30 mb-5">
+      <Faq />
       <Pricing />
       <Ready />
       <Footer />

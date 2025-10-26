@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Ready = () => {
   return (
-    <section className="px-10 md:px-30">
+    <section>
       <div className="relative flex items-center justify-center text-white overflow-hidden h-113 rounded-2xl">
         <div
           className="absolute inset-0 bg-cover bg-center"

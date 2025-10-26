@@ -4,7 +4,6 @@ import "./globals.css";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
-  variable: "--font-urbanist",
   display: "swap",
 });
 
@@ -19,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${urbanist.variable}  antialiased`}>{children}</body>
+    <html lang="en" className={urbanist.className}>
+      <body className="">{children}</body>
     </html>
   );
 }

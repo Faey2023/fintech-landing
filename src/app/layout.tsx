@@ -3,8 +3,9 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 
 const urbanist = Urbanist({
-  variable: "--urbanist",
   subsets: ["latin"],
+  variable: "--font-urbanist",
+  display: "swap",
 });
 
 export const metadata: Metadata = {

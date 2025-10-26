@@ -1,7 +1,10 @@
+import Ready from "@/sections/Ready";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="space-y-10">
+      <h1>Easy Pay</h1>
+      <Ready />
     </div>
   );
 };

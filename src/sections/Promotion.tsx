@@ -52,23 +52,22 @@ const Promotion = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center text-[#01081B] bg-[#F4EDFC] px-4 sm:px-6 md:px-8 lg:px-16 xl:px-30">
+    <section className="min-h-80vh flex items-center text-[#01081B] bg-[#F4EDFC] p-4 sm:px-6 md:px-8 lg:px-16 xl:px-30">
       <div className="flex flex-col md:flex-row w-full items-center justify-center pt-5 md:pt-0 gap-10">
         <Image src={img} alt="Easy Pay App Preview" width={500} height={250} />
 
         <div className="flex flex-col justify-center md:w-[30%]">
-          <div className="space-y-5">
-            <span className="uppercase text-xm tracking-[5px]">
-              Exclusive Launch Offer
-            </span>
-            <h2 className="text-[40px] font-bold">
-              Experience Payments Made Easy
-            </h2>
-            <p className="text-lg tracking-[0.5px] text-[#01081B]/90">
-              Join thousands switching to Easy Pay — a faster, safer, and
-              fee-free way to send and receive money worldwide.
-            </p>
-          </div>
+          <h5 className="uppercase text-[#932EFA] font-semibold text-xs sm:text-sm md:text-base">
+            Exclusive Launch Offer
+          </h5>
+
+          <h2 className="font-bold text-[#01081B] text-2xl sm:text-3xl md:text-4xl lg:text-[40px]">
+            Experience Payments Made Easy
+          </h2>
+          <p className="text-[#4D525F] w-fit">
+            Join thousands switching to Easy Pay — a faster, safer, and fee-free
+            way to send and receive money worldwide.
+          </p>
 
           <div className="flex text-[40px] md:text-[60px] uppercase justify-center md:justify-start">
             {["days", "hours", "minutes", "seconds"].map((key, i) => (

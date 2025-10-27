@@ -1,11 +1,14 @@
-import img from "@/assets/images/ready-to-use.png"
-import { Button } from "@/components/ui/button"
+import img from "@/assets/images/ready-to-use.png";
+import { Button } from "@/components/ui/button";
 
 const Ready = () => {
   return (
     <section className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-30">
       <div className="relative flex items-center justify-center text-white overflow-hidden rounded-lg sm:rounded-xl md:rounded-2xl min-h-64 sm:min-h-80 md:h-113">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${img.src})` }}></div>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${img.src})` }}
+        ></div>
 
         <div className="absolute inset-0 bg-[#000000B2]"></div>
         <div className="relative z-10 p-5 sm:px-6 md:px-0">
@@ -14,8 +17,9 @@ const Ready = () => {
               Ready to experience seamless <br /> secure payments globally
             </h2>
             <p className="my-3 sm:my-4 md:my-4 text-sm sm:text-base md:text-base text-gray-100">
-              Ready for hassle-free, secure payments anywhere in the world? Start using Monks <br /> Pay today it&#39;s
-              fast, free, and focused on keeping your transactions secure!
+              Ready for hassle-free, secure payments anywhere in the world?
+              Start using Easy <br /> Pay today it&#39;s fast, free, and focused
+              on keeping your transactions secure!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-5 justify-center items-center mt-6 sm:mt-8 md:mt-8">
@@ -30,7 +34,7 @@ const Ready = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Ready
+export default Ready;

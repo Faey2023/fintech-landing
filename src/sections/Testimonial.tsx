@@ -53,7 +53,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 
-const Testimonial=()=> {
+const Testimonial = () => {
   const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
 
   return (
@@ -135,9 +135,9 @@ const Testimonial=()=> {
             ))}
           </Swiper>
         </div>
-      </div>a
+      </div>
     </section>
   );
-}
+};
 
-export default Testimonial
+export default Testimonial;

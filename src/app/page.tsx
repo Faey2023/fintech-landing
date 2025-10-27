@@ -7,6 +7,7 @@ import Pricing from "@/sections/Pricing";
 import Promotion from "@/sections/Promotion";
 import Ready from "@/sections/Ready";
 import Security from "@/sections/Security";
+import SliderPartner from "@/sections/SliderPartner";
 import Testimonial from "@/sections/Testimonial";
 import Works from "@/sections/Works";
 
@@ -15,6 +16,7 @@ const Home = () => {
     <div>
       <div className="space-y-8 sm:space-y-10 md:space-y-12 my-5">
         <Features />
+        <SliderPartner />
         <Works />
         <Security />
         <Faq />
